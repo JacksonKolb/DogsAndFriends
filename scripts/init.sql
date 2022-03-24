@@ -1,0 +1,3 @@
+CREATE USER dev WITH PASSWORD 'dev';
+CREATE SCHEMA dogsandfriends;
+GRANT ALL PRIVILEGES ON SCHEMA dogsandfriends TO dev;
